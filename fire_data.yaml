@@ -1,0 +1,10 @@
+# fire_data.yaml
+# Provide dummy path targets pointing to your root data directory to bypass structural checks
+path: fire_multitask_data
+train: train/indoor/images # Bypasses the 'train:' key validation check
+val: train/indoor/images # Bypasses the 'val:' key validation check
+
+# Core Multi-Task single class targeting setup
+nc: 1
+names:
+  0: fire

@@ -1,0 +1,12 @@
+names:
+- fire
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: indoor-fire-detection-with-yolov7
+  url: https://universe.roboflow.com/aj-garcia-736tc/indoor-fire-detection-with-yolov7/dataset/10
+  version: 10
+  workspace: aj-garcia-736tc
+test: ../test/images
+train: ../train/images
+val: ../valid/images

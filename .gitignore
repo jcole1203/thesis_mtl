@@ -1,0 +1,17 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore your heavy dataset folder (Change 'datasets/' if your folder has a different name)
+datasets/
+fire_multitask_data/
+images/
+labels/
+fire_multitask_data/
+# Ignore training weights and checkpoints
+runs/
+*.pt
+*.pkl
+
+# Ignore system junk
+.DS_Store
+__pycache__/
